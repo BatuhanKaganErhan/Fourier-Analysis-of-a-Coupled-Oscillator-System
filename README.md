@@ -5,11 +5,10 @@ This repository contains a numerical study of the Fourier transform of a three-c
 This project simulates a 3-degree-of-freedom (3-DoF) coupled oscillator system and performs a Fourier Transform (FT) on the displacement of the first oscillator. It uses numerical integration to solve the system's equations of motion and plots the Fourier spectrum.
 
 ### Requirements
-
-Python 3.x
-NumPy
+Python 3.x  
+NumPy  
+Matplotlib  
 SciPy
-Matplotlib
 
 ### Installation
 To install the required dependencies, you can use pip (Python's package installer). Run the following command in your terminal or command prompt:
