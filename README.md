@@ -57,7 +57,7 @@ This project provides insights into the spectral properties of coupled oscillato
 The system consists of n coupled oscillators (with 3 in this example). The script solves the equations of motion using the `solve_ivp` function from the SciPy library. A Fourier Transform is then applied to the displacement of the first oscillator. The result is a plot showing the FT intensity vs. frequency, highlighting dominant frequency components.
 
 ### Code Explanation
-1. integral(data)
+1. integralTrapezoidal(data)
 This function numerically computes the integral of the given data using the trapezoidal rule. It's useful for understanding how physical quantities like energy are distributed over time.
 
 2. f_nosc(t, y, n, k, m, fixed_end)
