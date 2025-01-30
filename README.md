@@ -1,4 +1,4 @@
-# Fourier-Analysis-of-a-Single-Oscillator-System
+# Fourier-Analysis-of-a-Coupled-Oscillator-System
 This repository contains a numerical study of the Fourier transform of a three-coupled-oscillator system. The script extracts the frequency components of each oscillator's motion and generates frequency-intensity plots, revealing the dominant vibrational modes and their spectral characteristics.
 
 ## DoF Oscillator System with Fourier Transform
@@ -18,7 +18,7 @@ Clone the repository to your local machine:
 `git clone https://github.com/BatuhanKaganErhan/Fourier-Analysis-of-a-Single-Oscillator-System.git`
 
 Navigate to the project directory:
-`cd Fourier-Analysis-of-a-Single-Oscillator-System`
+`cd Fourier-Analysis-of-a-Coupled-Oscillator-System`
 
 Install the required dependencies: `pip install numpy matplotlib scipy `
 
