@@ -66,8 +66,15 @@ The motion is solved numerically with the Runge-Kutta method (RK45).
 The Fourier Transform is computed on the displacement data, and a frequency spectrum plot is generated.
 
 ### Example Output
-The output will be a plot showing the frequency spectrum of the first oscillator, with intensity values corresponding to the frequency components. This can be useful for analyzing the energy distribution across different frequencies in the system.
+### Example Output
+
+The output will be a plot showing the frequency spectrum of each oscillator, with intensity values corresponding to the frequency components. This can be useful for analyzing the energy distribution across different frequencies in the system.
+
+Below is an example of the Fourier Transform spectrum for all three oscillators:
+
 ![fourier_spectrum_plots (1)](https://github.com/user-attachments/assets/65e1ee84-9b2d-448e-af0e-e56d00987fa4)
+
+This plot visualizes the frequency components and their intensities for the three oscillators, providing insight into the oscillatory behavior and the interaction between them.
 
 ### Visualizing Oscillator Motion
 In addition to performing Fourier analysis on the coupled oscillator system, this project also provides a visualization of the motion of each individual oscillator over time. By plotting the displacement of each oscillator, you can observe their dynamics and how they evolve under the influence of their interactions.
