@@ -54,18 +54,21 @@ Features:
 This project provides insights into the spectral properties of coupled oscillators, making it valuable for applications in mechanical systems, vibration analysis, and related fields.
 
 ### How It Works
-The system consists of n coupled oscillators (with 3 in this example).
-The script solves the equations of motion using the solve_ivp function from the SciPy library.
-A Fourier Transform is then applied to the displacement of the first oscillator.
-The result is a plot showing the FT intensity vs. frequency, highlighting dominant frequency components.
+The system consists of n coupled oscillators (with 3 in this example). The script solves the equations of motion using the `solve_ivp` function from the SciPy library. A Fourier Transform is then applied to the displacement of the first oscillator. The result is a plot showing the FT intensity vs. frequency, highlighting dominant frequency components.
 
 ### Code Explanation
-integral(data): This function approximates the integral of the given data using the trapezoidal rule.
-f_nosc(t, y, n, k, m, fixed_end): This function defines the system of differential equations using Newton's Second Law.
-The motion is solved numerically with the Runge-Kutta method (RK45).
-The Fourier Transform is computed on the displacement data, and a frequency spectrum plot is generated.
+1. integral(data)
+This function numerically computes the integral of the given data using the trapezoidal rule. It's useful for understanding how physical quantities like energy are distributed over time.
 
-### Example Output
+2. f_nosc(t, y, n, k, m, fixed_end)
+This function models the coupled oscillators using Newton’s Second Law, calculating forces and accelerations for each oscillator. The motion is numerically solved using the Runge-Kutta method.
+
+3. Fourier Transform (FT) Application
+This function applies the Fourier transform to the oscillators’ displacement data over time, extracting the frequency-intensity spectrum, which helps analyze the system’s frequency components.
+
+4. Visualization of Results
+The Fourier spectrum is visualized by plotting the frequency vs. intensity, providing insight into how the oscillators' energy is distributed across different frequencies.
+
 ### Example Output
 
 The output will be a plot showing the frequency spectrum of each oscillator, with intensity values corresponding to the frequency components. This can be useful for analyzing the energy distribution across different frequencies in the system.
