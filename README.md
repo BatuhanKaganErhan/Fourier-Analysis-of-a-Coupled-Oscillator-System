@@ -5,17 +5,17 @@ This repository contains a numerical study of the Fourier transform of a three-c
 This project simulates a 3-degree-of-freedom (3-DoF) coupled oscillator system and performs a Fourier Transform (FT) on the displacement of the first oscillator. It uses numerical integration to solve the system's equations of motion and plots the Fourier spectrum.
 
 ### Requirements
-- Python 3.7 or higher
+- Python 3.x or higher
 - Required libraries:
   - numpy
   - matplotlib
   - scipy
 
-## Running the Project
+### Running the Project
 To run the project locally, follow these steps:
 
 Clone the repository to your local machine:
-`git clone https://github.com/BatuhanKaganErhan/Fourier-Analysis-of-a-Single-Oscillator-System.git`
+`git clone https://github.com/BatuhanKaganErhan/Fourier-Analysis-of-a-Coupled-Oscillator-System.git`
 
 Navigate to the project directory:
 `cd Fourier-Analysis-of-a-Coupled-Oscillator-System`
@@ -23,15 +23,30 @@ Navigate to the project directory:
 Install the required dependencies: `pip install numpy matplotlib scipy `
 
 Run the script:
-`python my_script.py`
+`python fourier_transform_analysis.py`
+
+### Project Overview
+This project investigates the behavior of a coupled oscillator system, applying numerical methods to solve the system's equations of motion and perform Fourier analysis on the displacement data. The system consists of multiple coupled oscillators, and the study explores the frequency components of each oscillator’s motion through the Fourier transform. Additionally, the motion of the oscillators is visualized to observe their dynamic interactions over time.
+
+Key objectives include:
+
+Simulating the motion of a coupled oscillator system with variable boundary conditions (fixed or free ends).
+Performing Fourier transform analysis to extract the frequency-intensity spectrum of each oscillator's motion.
+Visualizing the displacement of each oscillator over time, highlighting their dynamic behavior.
+Features:
+Fourier Analysis: The project uses the Fourier transform to analyze the frequency components of the system's oscillators.
+Oscillator Motion Visualization: In addition to Fourier analysis, the project provides plots showing the displacement of each oscillator over time.
+Flexible Boundary Conditions: The system allows for different boundary conditions, such as fixed or free ends, affecting the oscillators' behavior.
+This project provides insights into the spectral properties of coupled oscillators, making it valuable for applications in mechanical systems, vibration analysis, and related fields.
+
 
 ### Usage
 Clone this repository or download the project files to your local machine.
 
-In the main Python file (e.g., oscillator_simulation.py), ensure the initial conditions (yStart), spring constant (k), and mass (m) are set according to your simulation needs.
+In the main Python file (e.g., fourier_transform_analysis.py), ensure the initial conditions (yStart), spring constant (k), and mass (m) are set according to your simulation needs.
 
 Run the Python script by executing the following command in your terminal:
-`python my_script.py`
+`python fourier_transform_analysis.py`
 
 The script will calculate the motion of the oscillators, perform the Fourier Transform, and display the FT intensity plot.
 
@@ -54,7 +69,7 @@ The output will be a plot showing the frequency spectrum of the first oscillator
 ### Visualizing Oscillator Motion
 In addition to performing Fourier analysis on the coupled oscillator system, this project also provides a visualization of the motion of each individual oscillator over time. By plotting the displacement of each oscillator, you can observe their dynamics and how they evolve under the influence of their interactions.
 
-The motion data for each oscillator is available in the file `oscillator_motion_data.py`. This file contains the necessary code to generate the motion plots for the oscillators, which visually represent their behavior over time.
+The motion data for each oscillator is available in the file `oscillator_motion_plot.py`. This file contains the necessary code to generate the motion plots for the oscillators, which visually represent their behavior over time.
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
