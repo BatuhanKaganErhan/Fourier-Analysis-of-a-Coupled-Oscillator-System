@@ -20,8 +20,7 @@ Clone the repository to your local machine:
 Navigate to the project directory:
 `cd Fourier-Analysis-of-a-Single-Oscillator-System`
 
-Install the required dependencies:
-`Install the required dependencies: pip install numpy matplotlib scipy `
+Install the required dependencies: `pip install numpy matplotlib scipy `
 
 Run the script:
 `python my_script.py`
@@ -40,16 +39,16 @@ The script will calculate the motion of the oscillators, perform the Fourier Tra
 The system consists of n coupled oscillators (with 3 in this example).
 The script solves the equations of motion using the solve_ivp function from the SciPy library.
 A Fourier Transform is then applied to the displacement of the first oscillator.
-The result is a plot showing the FT intensity vs. frequency.
+The result is a plot showing the FT intensity vs. frequency, highlighting dominant frequency components.
 
 ### Code Explanation
 integral(data): This function approximates the integral of the given data using the trapezoidal rule.
-f_nosc(t, y, n, k, m, fixed_end): This function defines the system of differential equations describing the motion of the coupled oscillators.
+f_nosc(t, y, n, k, m, fixed_end): This function defines the system of differential equations using Newton's Second Law.
 The motion is solved numerically with the Runge-Kutta method (RK45).
-The Fourier Transform is computed on the displacement of the first oscillator and plotted.
+The Fourier Transform is computed on the displacement data, and a frequency spectrum plot is generated.
 
 ### Example Output
 The output will be a plot showing the frequency spectrum of the first oscillator, with intensity values corresponding to the frequency components. This can be useful for analyzing the energy distribution across different frequencies in the system.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
