@@ -51,5 +51,10 @@ The Fourier Transform is computed on the displacement data, and a frequency spec
 The output will be a plot showing the frequency spectrum of the first oscillator, with intensity values corresponding to the frequency components. This can be useful for analyzing the energy distribution across different frequencies in the system.
 ![fourier_spectrum_plots (1)](https://github.com/user-attachments/assets/65e1ee84-9b2d-448e-af0e-e56d00987fa4)
 
+### Visualizing Oscillator Motion
+In addition to performing Fourier analysis on the coupled oscillator system, this project also provides a visualization of the motion of each individual oscillator over time. By plotting the displacement of each oscillator, you can observe their dynamics and how they evolve under the influence of their interactions.
+
+The motion data for each oscillator is available in the file `oscillator_motion_data.py`. This file contains the necessary code to generate the motion plots for the oscillators, which visually represent their behavior over time.
+
 ### License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
