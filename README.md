@@ -49,6 +49,8 @@ The Fourier Transform is computed on the displacement data, and a frequency spec
 
 ### Example Output
 The output will be a plot showing the frequency spectrum of the first oscillator, with intensity values corresponding to the frequency components. This can be useful for analyzing the energy distribution across different frequencies in the system.
+![fourier_spectrum_plots](https://github.com/BatuhanKaganErhan/Fourier-Analysis-of-a-Single-Oscillator-System
+/raw/main/fourier_spectrum_plots.png)
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
