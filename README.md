@@ -15,13 +15,13 @@ This project simulates a 3-degree-of-freedom (3-DoF) coupled oscillator system a
 To run the project locally, follow these steps:
 
 Clone the repository to your local machine:
-`git clone https://github.com/yourusername/projectname.git`
+`git clone https://github.com/BatuhanKaganErhan/Fourier-Analysis-of-a-Single-Oscillator-System.git`
 
 Navigate to the project directory:
-`cd projectname`
+`cd Fourier-Analysis-of-a-Single-Oscillator-System`
 
 Install the required dependencies:
-`pip install -r requirements.txt`
+`Install the required dependencies: pip install numpy matplotlib scipy `
 
 Run the script:
 `python my_script.py`
@@ -50,3 +50,6 @@ The Fourier Transform is computed on the displacement of the first oscillator an
 
 ### Example Output
 The output will be a plot showing the frequency spectrum of the first oscillator, with intensity values corresponding to the frequency components. This can be useful for analyzing the energy distribution across different frequencies in the system.
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
