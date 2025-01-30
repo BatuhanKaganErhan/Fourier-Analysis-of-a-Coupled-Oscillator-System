@@ -25,21 +25,6 @@ Install the required dependencies: `pip install numpy matplotlib scipy `
 Run the script:
 `python fourier_transform_analysis.py`
 
-### Project Overview
-This project investigates the behavior of a coupled oscillator system, applying numerical methods to solve the system's equations of motion and perform Fourier analysis on the displacement data. The system consists of multiple coupled oscillators, and the study explores the frequency components of each oscillator’s motion through the Fourier transform. Additionally, the motion of the oscillators is visualized to observe their dynamic interactions over time.
-
-Key objectives include:
-
-Simulating the motion of a coupled oscillator system with variable boundary conditions (fixed or free ends).
-Performing Fourier transform analysis to extract the frequency-intensity spectrum of each oscillator's motion.
-Visualizing the displacement of each oscillator over time, highlighting their dynamic behavior.
-Features:
-Fourier Analysis: The project uses the Fourier transform to analyze the frequency components of the system's oscillators.
-Oscillator Motion Visualization: In addition to Fourier analysis, the project provides plots showing the displacement of each oscillator over time.
-Flexible Boundary Conditions: The system allows for different boundary conditions, such as fixed or free ends, affecting the oscillators' behavior.
-This project provides insights into the spectral properties of coupled oscillators, making it valuable for applications in mechanical systems, vibration analysis, and related fields.
-
-
 ### Usage
 Clone this repository or download the project files to your local machine.
 
@@ -49,6 +34,24 @@ Run the Python script by executing the following command in your terminal:
 `python fourier_transform_analysis.py`
 
 The script will calculate the motion of the oscillators, perform the Fourier Transform, and display the FT intensity plot.
+
+### Project Overview
+
+This project investigates the behavior of a coupled oscillator system, applying numerical methods to solve the system's equations of motion and perform Fourier analysis on the displacement data. The system consists of multiple coupled oscillators, and the study explores the frequency components of each oscillator’s motion through the Fourier transform. Additionally, the motion of the oscillators is visualized to observe their dynamic interactions over time.
+
+Key objectives include:
+
+- Simulating the motion of a coupled oscillator system with variable boundary conditions (fixed or free ends).
+- Performing Fourier transform analysis to extract the frequency-intensity spectrum of each oscillator's motion.
+- Visualizing the displacement of each oscillator over time, highlighting their dynamic behavior.
+
+Features:
+
+- Fourier Analysis: The project uses the Fourier transform to analyze the frequency components of the system's oscillators.
+- Oscillator Motion Visualization: In addition to Fourier analysis, the project provides plots showing the displacement of each oscillator over time.
+- Flexible Boundary Conditions: The system allows for different boundary conditions, such as fixed or free ends, affecting the oscillators' behavior.
+
+This project provides insights into the spectral properties of coupled oscillators, making it valuable for applications in mechanical systems, vibration analysis, and related fields.
 
 ### How It Works
 The system consists of n coupled oscillators (with 3 in this example).
