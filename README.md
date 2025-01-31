@@ -78,8 +78,6 @@ https://github.com/BatuhanKaganErhan/Fourier-Analysis-of-a-Coupled-Oscillator-Sy
 This plot visualizes the frequency components and their intensities for the three oscillators, providing insight into the oscillatory behavior and the interaction between them.
 
 ### Visualizing Oscillator Motion
-In addition to performing Fourier analysis on the coupled oscillator system, this project also provides a visualization of the motion of each individual oscillator over time. By plotting the displacement of each oscillator, you can observe their dynamics and how they evolve under the influence of their interactions.
-
 The motion data for each oscillator is available in the file `oscillator_motion_plot.py`. This file contains the necessary code to generate the motion plots for the oscillators, which visually represent their behavior over time.
 
 ### License
