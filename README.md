@@ -70,10 +70,7 @@ This function applies the Fourier transform to the oscillators’ displacement d
 The Fourier spectrum is visualized by plotting the frequency vs. intensity, providing insight into how the oscillators' energy is distributed across different frequencies.
 
 ### Example Output
-
-The output will be a plot showing the frequency spectrum of each oscillator, with intensity values corresponding to the frequency components. This can be useful for analyzing the energy distribution across different frequencies in the system.
-
-Below is an example of the Fourier Transform spectrum for all three oscillators:
+Below is a sample Fourier Transform spectrum for the three oscillators:
 
 ![fourier_spectrum_plots (1)](https://github.com/user-attachments/assets/65e1ee84-9b2d-448e-af0e-e56d00987fa4)
 https://github.com/BatuhanKaganErhan/Fourier-Analysis-of-a-Coupled-Oscillator-System/blob/main/fourier_spectrum_plots.png
