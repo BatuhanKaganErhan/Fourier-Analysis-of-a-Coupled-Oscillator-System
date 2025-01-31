@@ -51,6 +51,15 @@ Features:
 - Oscillator Motion Visualization: In addition to Fourier analysis, the project provides plots showing the displacement of each oscillator over time.
 - Flexible Boundary Conditions: The system allows for different boundary conditions, such as fixed or free ends, affecting the oscillators' behavior.
 
+Parameters and conditions are easily customizable:
+- k: Spring constant, determines the system's elasticity. It can be modified to simulate different spring forces.
+- m: Mass of the oscillators, affects the system's dynamics. It can be adjusted to analyze different masses.
+- n: Number of oscillators, represents the count of coupled oscillators. More oscillators can be added to increase the system's size.
+- fixed_end: If set to "True", the ends are fixed. If set to "False", the ends are free.
+- yStart: Initial conditions, including the position and velocity of the first oscillator, as well as the initial states of other oscillators.
+
+These parameters can be customized by the user to modify the simulation's initial conditions and the physical properties of the system.
+
 This project provides insights into the spectral properties of coupled oscillators, making it valuable for applications in mechanical systems, vibration analysis, and related fields.
 
 ### How It Works
