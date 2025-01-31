@@ -72,7 +72,6 @@ The Fourier spectrum is visualized by plotting the frequency vs. intensity, prov
 ### Example Output
 Below is a sample Fourier Transform spectrum for the three oscillators:
 
-![fourier_spectrum_plots (1)](https://github.com/user-attachments/assets/65e1ee84-9b2d-448e-af0e-e56d00987fa4)
 https://github.com/BatuhanKaganErhan/Fourier-Analysis-of-a-Coupled-Oscillator-System/blob/main/fourier_spectrum_plots.png
 
 This plot visualizes the frequency components and their intensities for the three oscillators, providing insight into the oscillatory behavior and the interaction between them.
